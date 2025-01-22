@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" dir="rtl" lang="ar" >
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="Content-Type" content="text/html" />
+        <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE5" />
+        <meta name = "keywords" content = "longin,north,sinaa,north sinaa,form,Create, create an account" /> 
+        <meta name = "description" content = "ملاحي بن عامر 912" />
+        <meta name = "author" content="احمد توفيق هاشل محمد" />
+        <title>نماذج سيناء</title>
+        <link rel="icon" href="../image/logo.png" />
+        <link rel="stylesheet" type="text/css" href="../css/style_editor.css" />
+        <link rel="stylesheet" href="../librarys/lib_js/Coloris-main/dist/coloris.min.css" /> 
+        <link rel="stylesheet" href="../librarys/lib_css/fontawesome-free-5.15.4-web/css/all.min.css">
+    </head>
+    <body>
+        <h1 id="h1"></h1>
+        <h1 id="h2"></h1>
+        <h1 id="h3"></h1>
+        <h1 id="h4"></h1>
+        <h1 id="h5"></h1>
+    </body>
+    <script src="./UrlSearch.js"></script>
+    <script>
+        var h1 = document.getElementById("h1");
+        h1.innerHTML = UrlSearch.url();
+        var h2 = document.getElementById("h2");
+        h2.innerHTML = UrlSearch.protocol();
+        var h3 = document.getElementById("h3");
+        h3.innerHTML = UrlSearch.domin();
+        var h4 = document.getElementById("h4");
+        h4.innerHTML = UrlSearch.allParams();
+        var h5 = document.getElementById("h5");
+        h5.innerHTML = UrlSearch.getParam("rrr");
+        UrlSearch.setParam("rtr","werwrr");
+        UrlSearch.send();
+    </script>
+
+</html>
