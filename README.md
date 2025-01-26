@@ -1,7 +1,6 @@
 # jspopup
 ## Introduction
-JsPopup is a simple popup written in vanilla Javascript. You can use it in any of your application where, whether, you need to display a popup with simple message, or need to process any function. You can achieve both the goals.
-
+UrlSearch  is a simple 
 ## Installation 
 
 ```javascript
