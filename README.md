@@ -1,6 +1,6 @@
-# jspopup
+# UrlSearch
 ## Introduction
-UrlSearch  is a simple 
+UrlSearch  is a simple  JavaScript library to analyze links and extract information from them such as protocol and domain and Param
 ## Installation 
 
 ```javascript
